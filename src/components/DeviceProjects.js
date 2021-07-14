@@ -1,6 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects } from "../data";
+import { deviceprojects } from "../data";
 
 export default function UtilityProjects() {
   return (
