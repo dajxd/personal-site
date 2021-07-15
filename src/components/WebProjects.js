@@ -21,7 +21,7 @@ export default function WebProjects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/4 h-100 p-8 hoverers">
+              className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8 hoverers">
                 <h1 className="text-lg font-bold text-white mb-3">
                     {project.title}
                   </h1>
@@ -47,7 +47,7 @@ export default function WebProjects() {
           <a
               href="#"
               key=""
-              className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/4 h-100 p-8">
+              className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8">
                 <h1 className="title-font text-lg font-bold text-white mb-3">
                     davemcnamara.com
                   </h1>

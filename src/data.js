@@ -17,9 +17,9 @@ export const webprojects = [
   },
   {
     title: "Monroe Strongback",
-    subtitle: "An electronic musician's portal page.",
+    subtitle: "Javascript, jQuery",
     description:
-      "Made to design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little animations, and a whole lot of box-shadow.",
+      "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little animations, and a whole lot of box-shadow.",
     image: "./monroe.png", 
     link: "#",
   },
@@ -28,12 +28,12 @@ export const webprojects = [
     subtitle: "Javascript, Shamelessness",
     description:
       "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this. Not a marvel of code, but it's fun working in notepad now and then.",
-    image: "webofsites.png",
+    image: "wos.png",
     link: "http://davemcnamara.com/webofsites/",
   },
   {
     title: "FreqFreak Free",
-    subtitle: "Javascript Audio Quiz",
+    subtitle: "Javascript",
     description:
       "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
     image: "./fff.png",
