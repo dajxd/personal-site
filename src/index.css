@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#name {
+    font-family: 'Otomanopee One', sans-serif;
+    color: #1D3556;
+}
+
+.resyellow {
+    background-color: #FBF2DA;
+    color: #1D3556;
+}
+
+.resblue {
+    background-color: #1D3556;
+    color: #FBF2DA;
+}
+
+.resyellowtext {
+    color: #FBF2DA;
+}
+
+.resbluetext {
+    color: #1D3556;
+}
+
+.metasite {
+    width:300px;
+    height:300px;
+    -webkit-transform: scale(0.5);  /* Saf3.1+, Chrome */
+    -moz-transform: scale(0.5);  /* FF3.5+ */
+    -ms-transform: scale(0.5);  /* IE9 */
+    -o-transform: scale(0.5);  /* Opera 10.5+ */
+    transform: scale(0.5);
+    filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */
+           M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}

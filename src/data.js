@@ -1,9 +1,9 @@
 export const webprojects = [
   {
-    title: "Dave\'s Student Portal",
+    title: "Dave's Student Portal",
     subtitle: "Node.js, MongoDB, Pug",
     description:
-      "An always-up-to-date resource for my music students for homework, worksheets, charts, and more.",
+      "An always-up-to-date resource for my music students for homework, worksheets, charts, and more. Includes a protected database update page, and a log viewer of previous entries.",
     image: "./studentportal.png",
     link: "https://www.davesstudents.com",
   },
@@ -11,93 +11,78 @@ export const webprojects = [
     title: "Black Duck Moments",
     subtitle: "Squarespace, Mailchimp, Stripe",
     description:
-      "A hub for a pain management therapist\'s patients, with a scheduled e-mail support program and book purchase incentives.",
-    image: "./bdmfull.png",
+      "A hub for a pain management psychologist's patients, with a scheduled e-mail support program and book purchase incentives. Made with the goal of the client being able to handle future updates themselves.",
+    image: "./bdm.png",
     link: "",
   },
   {
-    title: "FreqFreak Free",
-    subtitle: "Pure javascript audio processing",
-    description:
-      "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft.",
-    image: "./fff.png",
-    link: "http://www.davemcnamara.com/freqfreakfree/",
-  },
-  {
     title: "Web of Sites",
-    subtitle: "Javascript, shamelessness",
+    subtitle: "Javascript, Shamelessness",
     description:
-      "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this.",
+      "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this. Not a marvel of code, but it's fun working in notepad now and then.",
     image: "webofsites.png",
     link: "http://davemcnamara.com/webofsites/",
   },
+  {
+    title: "FreqFreak Free",
+    subtitle: "Javascript Audio Quiz",
+    description:
+      "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. Pure JS. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
+    image: "./fff.png",
+    link: "http://www.davemcnamara.com/freqfreakfree/",
+  }
 ];
 export const deviceprojects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Melody Maker",
+    subtitle: "Python on the Raspberry Pi. New melodies at the push of a button.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "An eInk display which will generate a random melody and title when you press one of the buttons. Each button down loosens the rules for what it considers a reasonable melody. The challenge was in drawing the notes! Next step is adding a little speaker to play the melody, which should be trivial since the software already has the note names.",
+    image: "./melodysmall.png",
+    link: "",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "PDF Chart Displayer",
+    subtitle: "Python and extreme amounts of PDF optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
+    image: "./comingsoon.png",
+    link: "",
   },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
+
 ];
 export const utilityprojects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "API 7800 Settings Saver",
+    subtitle: "Python, Tkinter, more math than I anticipated.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers.",
+    image: "./apicrop.png",
+    link: "",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Clipboard Tracker",
+    subtitle: "Python, Tkinter",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space.",
+    image: "./clipper.png",
+    link: "",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Gimmetune Bot",
+    subtitle: "Python with the Reddit API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Created for the users of a music subreddit, this bot watches for posts that begin \"!gt\", and quickly replies with a link to the first YouTube result for the rest of post. Largely for mobile users who want to easily link to a song. Sadly out of commission for the time being.",
+    image: "./gimmetune.png",
+    link: "",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Chord Speller",
+    subtitle: "Python, Tkinter",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A tool that parses the name of a chord and returns the notes that belong in it. Created for my students who are beginning to learn chord theory.",
+    image: "./chord.png",
+    link: "",
   },
 ];
 
