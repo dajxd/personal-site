@@ -27,16 +27,13 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap resblue rounded-lg overflow-hidden p-10">
-        
-
-          
-            <div className="py-10 text-2xl md:px-10 lg:text-3xl lg:px-10 font-medium title-font sm:w-full m:w-full lg:w-1/2">
-              <h2 className=" font-semibold tracking-widest ">
+            <div className="py-10 text-2xl md:px-10 lg:text-2xl lg:px-10 font-medium title-font sm:w-full m:w-full lg:w-1/2">
+              <h2 className=" font-semibold">
                 Email
               </h2>
               <p className="text-indigo-400 leading-relaxed " id="em">
               </p>
-              <h2 className="title-font font-semibold tracking-widest mt-4 ">
+              <h2 className="title-font font-semibold mt-4 ">
                 Cell
               </h2>
               <p className="leading-relaxed " id="pn"></p>
@@ -89,7 +86,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold">
+            className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold w-1/4">
             Submit
           </button>
         </form>

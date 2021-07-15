@@ -7,6 +7,7 @@ import UtilityProjects from "./components/UtilityProjects";
 import WebProjects from "./components/WebProjects";
 import DeviceProjects from "./components/DeviceProjects";
 import Bio from "./components/Bio";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <UtilityProjects />
       <Bio />
       <Contact />
+      <Footer />
     </main>
   );
 }

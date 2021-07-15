@@ -16,7 +16,9 @@
     background-color: #1D3556;
     color: #FBF2DA;
 }
-
+.resblueback {
+    background-color: #1D3556;
+}
 .resyellowtext {
     color: #FBF2DA;
 }
@@ -32,3 +34,9 @@
     background-position-x: center;
     background-size: cover;
 }
+/* 
+#aboutbox {
+    background-image: url("./whiteflower.PNG");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* background-size: cover; }*/

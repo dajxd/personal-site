@@ -5,7 +5,7 @@ import App from './App';
 
 window.addEventListener('scroll', () => {  
   const metasite = document.querySelector('.metasite');
-  let amount = Math.floor(window.pageYOffset/10) - 165;
+  let amount = Math.floor(window.pageYOffset/10) - 555;
   metasite.style.cssText = 'background-position-y: bottom '+amount.toString()+("px;")
 });
 window.onload = function () {
