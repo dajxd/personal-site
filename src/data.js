@@ -11,9 +11,17 @@ export const webprojects = [
     title: "Black Duck Moments",
     subtitle: "Squarespace, Mailchimp, Stripe",
     description:
-      "A hub for a pain management psychologist's patients, with a scheduled e-mail support program and book purchase incentives. Made with the goal of the client being able to handle future updates themselves.",
+      "A hub for a psychologist's patients, with a scheduled e-mail support program and book purchase incentives. Made for the client to be able to handle future updates themselves.",
     image: "./bdm.png",
-    link: "",
+    link: "#",
+  },
+  {
+    title: "Monroe Strongback",
+    subtitle: "An electronic musician's portal page.",
+    description:
+      "Made to design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little animations, and a whole lot of box-shadow.",
+    image: "./monroe.png", 
+    link: "#",
   },
   {
     title: "Web of Sites",
@@ -27,19 +35,19 @@ export const webprojects = [
     title: "FreqFreak Free",
     subtitle: "Javascript Audio Quiz",
     description:
-      "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. Pure JS. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
+      "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
     image: "./fff.png",
     link: "http://www.davemcnamara.com/freqfreakfree/",
-  }
+  },
 ];
 export const deviceprojects = [
   {
     title: "Melody Maker",
-    subtitle: "Python on the Raspberry Pi. New melodies at the push of a button.",
+    subtitle: "Python on the Raspberry Pi",
     description:
       "An eInk display which will generate a random melody and title when you press one of the buttons. Each button down loosens the rules for what it considers a reasonable melody. The challenge was in drawing the notes! Next step is adding a little speaker to play the melody, which should be trivial since the software already has the note names.",
     image: "./melodysmall.png",
-    link: "",
+    link: "#",
   },
   {
     title: "PDF Chart Displayer",
@@ -47,7 +55,7 @@ export const deviceprojects = [
     description:
       "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
     image: "./comingsoon.png",
-    link: "",
+    link: "#",
   },
 
 ];
@@ -58,7 +66,7 @@ export const utilityprojects = [
     description:
       "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers.",
     image: "./apicrop.png",
-    link: "",
+    link: "#",
   },
   {
     title: "Clipboard Tracker",
@@ -66,15 +74,15 @@ export const utilityprojects = [
     description:
       "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space.",
     image: "./clipper.png",
-    link: "",
+    link: "#",
   },
   {
     title: "Gimmetune Bot",
-    subtitle: "Python with the Reddit API",
+    subtitle: "Python, Reddit API",
     description:
       "Created for the users of a music subreddit, this bot watches for posts that begin \"!gt\", and quickly replies with a link to the first YouTube result for the rest of post. Largely for mobile users who want to easily link to a song. Sadly out of commission for the time being.",
     image: "./gimmetune.png",
-    link: "",
+    link: "#",
   },
   {
     title: "Chord Speller",
@@ -82,32 +90,6 @@ export const utilityprojects = [
     description:
       "A tool that parses the name of a chord and returns the notes that belong in it. Created for my students who are beginning to learn chord theory.",
     image: "./chord.png",
-    link: "",
+    link: "#",
   },
-];
-
-// export const testimonials = [
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/1.jpg",
-//     name: "Jesse Hicks",
-//     company: "Zoozle",
-//   },
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/94.jpg",
-//     name: "Ruben Alvarez",
-//     company: "Dooble.io",
-//   },
-// ];
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
 ];

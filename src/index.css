@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#name {
+#name, .title-font-only {
     font-family: 'Otomanopee One', sans-serif;
     color: #1D3556;
 }
@@ -26,13 +26,9 @@
 }
 
 .metasite {
-    width:300px;
-    height:300px;
-    -webkit-transform: scale(0.5);  /* Saf3.1+, Chrome */
-    -moz-transform: scale(0.5);  /* FF3.5+ */
-    -ms-transform: scale(0.5);  /* IE9 */
-    -o-transform: scale(0.5);  /* Opera 10.5+ */
-    transform: scale(0.5);
-    filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */
-           M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+    
+    background-image: url("./metasite.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
 }
