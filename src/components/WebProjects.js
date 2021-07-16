@@ -16,45 +16,81 @@ export default function WebProjects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {webprojects.map((project) => (
+          {webprojects.map((project) => {if(project.link !== ""){return (
             
-            <a
-              href={project.link}
+            <div
+              
               key={project.image}
+              target="blank"
               className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8 hoverers">
                 <h1 className="text-lg font-bold text-white mb-3">
                     {project.title}
                   </h1>
               <div className="flex relative min-h-full resbluetext">
-                
+              <a href={project.link} target="blank">
                 <img
                   alt={project.title}
                   className="absolute inset-0 w-full h-full min-h-full object-cover object-center"
                   src={project.image}
                 />
                 
-                <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-600 mb-1">
+                <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100" >
+                  <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                     {project.subtitle}
                   </h2>
                   
                   <p className="leading-relaxed text-grey-900">{project.description}</p>
                   
-                </div>
+                </div></a>
               </div>
-            </a>
-          ))}
+            </div>
+          )}
+            else { 
+              return (
+            
+                <div
+                  
+                  key={project.image}
+                  className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8 hoverers">
+                    <h1 className="text-lg font-bold text-white mb-3">
+                        {project.title}
+                      </h1>
+                  <div className="flex relative min-h-full resbluetext">
+                    
+                    <img
+                      alt={project.title}
+                      className="absolute inset-0 w-full h-full min-h-full object-cover object-center"
+                      src={project.image}
+                    />
+                    
+                    <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
+                      <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
+                        {project.subtitle}
+                      </h2>
+                      
+                      <p className="leading-relaxed text-grey-900">{project.description}</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              )
+
+
+            }
+        }
+          
+          )}
           <a
-              href="#"
+              
               key=""
               className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8">
                 <h1 className="title-font text-lg font-bold text-white mb-3">
-                    davemcnamara.com
+                    Personal Site
                   </h1>
               <div className="flex relative min-h-full resbluetext metasite">
 
                 <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-600 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                     React, Tailwind CSS
                   </h2>
                   

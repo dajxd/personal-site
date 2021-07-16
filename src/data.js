@@ -13,7 +13,7 @@ export const webprojects = [
     description:
       "A hub for a psychologist's patients, with a scheduled e-mail support program and book purchase incentives. Made for the client to be able to handle future updates themselves.",
     image: "./bdm.png",
-    link: "#",
+    link: "",
   },
   {
     title: "Monroe Strongback",
@@ -21,7 +21,7 @@ export const webprojects = [
     description:
       "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little animations, and a whole lot of box-shadow.",
     image: "./monroe.png", 
-    link: "#",
+    link: "",
   },
   {
     title: "Web of Sites",
@@ -50,7 +50,7 @@ export const deviceprojects = [
     link: "#",
   },
   {
-    title: "PDF Chart Displayer",
+    title: "Portable PDF Music Displayer",
     subtitle: "Python and extreme amounts of PDF optimization",
     description:
       "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",

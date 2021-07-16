@@ -86,7 +86,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold w-1/4">
+            className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold lg:w-1/2 md:w-1/2 sm:w-auto ">
             Submit
           </button>
         </form>

@@ -12,13 +12,13 @@ export default function DeviceProjects() {
             Devices
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I have a hobby of making devices of (sometimes dubious) utility, often with Arduino and Raspberry Pi. Here's a couple recent ones.
+            I have a hobby of making devices (of sometimes dubious utility), often with Arduino or Raspberry Pi. Here's a couple recent ones.
           </p>
         </div>
         <div className="flex flex-wrap -m-4 pb-10">
           {deviceprojects.map((project) => (
-                       <a
-                       href={project.link}
+                       <div
+                       
                        key={project.image}
                        className="sm:w-100 md:w-1/2 lg:w-1/2 h-100 p-8 hoverers">
                          <h1 className="text-lg font-bold resbluetext  mb-3">
@@ -32,7 +32,7 @@ export default function DeviceProjects() {
                          />
                          
                          <div className="px-8 py-10 relative z-10 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
-                           <h2 className="tracking-widest text-sm title-font font-medium text-green-600 mb-1">
+                           <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                              {project.subtitle}
                            </h2>
                            
@@ -40,7 +40,7 @@ export default function DeviceProjects() {
                            
                          </div>
                        </div>
-                     </a>
+                     </div>
           ))}
         </div>
       </div>
