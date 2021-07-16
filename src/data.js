@@ -29,7 +29,7 @@ export const webprojects = [
     description:
       "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this. Not a marvel of code, but it's fun working in notepad now and then.",
     image: "wos.png",
-    link: "http://davemcnamara.com/webofsites/",
+    link: "./webofsites/",
   },
   {
     title: "FreqFreak Free",
@@ -37,7 +37,7 @@ export const webprojects = [
     description:
       "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
     image: "./fff.png",
-    link: "http://www.davemcnamara.com/freqfreakfree/",
+    link: "./freqfreakfree/",
   },
 ];
 export const deviceprojects = [
