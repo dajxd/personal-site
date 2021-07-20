@@ -43,7 +43,6 @@ export default function UtilityProjects() {
           else {
             return (
                         <a
-              href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-8 h-100 min-h-full hoverers">
                 <h1 className="text-lg font-bold text-white mb-3">

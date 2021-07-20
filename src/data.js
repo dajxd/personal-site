@@ -47,7 +47,7 @@ export const deviceprojects = [
     description:
       "An eInk display which will generate a random melody and title when you press one of the buttons. Each button down loosens the rules for what it considers a reasonable melody. The challenge was in drawing the notes! Next step is adding a little speaker to play the melody, which should be trivial since the software already has the note names.",
     image: "./melodysmall.png",
-    link: "#",
+    link: "",
   },
   {
     title: "PDF Music Box",
@@ -55,7 +55,7 @@ export const deviceprojects = [
     description:
       "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
     image: "./comingsoon.png",
-    link: "#",
+    link: "",
   },
 
 ];
@@ -66,7 +66,7 @@ export const utilityprojects = [
     description:
       "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers. Mapping that was the trickiest part!",
     image: "./apicrop.png",
-    link: "#",
+    link: "",
   },
   {
     title: "Clipboard Tracker",
@@ -74,7 +74,7 @@ export const utilityprojects = [
     description:
       "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has it's own prettier one!",
     image: "./clipper.png",
-    link: "#",
+    link: "",
   },
   {
     title: "Gimmetune Bot",
@@ -82,7 +82,7 @@ export const utilityprojects = [
     description:
       "Created for the users of a music subreddit, this bot watches for posts that begin \"!gt\", and quickly replies with a link to the first YouTube result for the rest of post. Largely for mobile users who want to easily link to a song. Out of commission now because I no longer use the website.",
     image: "./gimmetune.png",
-    link: "#",
+    link: "",
   },
   {
     title: "Chord Speller",
@@ -90,6 +90,6 @@ export const utilityprojects = [
     description:
       "A tool that parses the name of a chord and returns the notes that belong in it. Created for my students who are beginning to learn chord theory.",
     image: "./chord.png",
-    link: "#",
+    link: "",
   },
 ];

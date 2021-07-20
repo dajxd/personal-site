@@ -18,7 +18,6 @@ export default function DeviceProjects() {
         <div className="flex flex-wrap -m-4 pb-10">
           {deviceprojects.map((project) => (
                        <div
-                       
                        key={project.image}
                        className="sm:w-100 md:w-1/2 lg:w-1/2 h-100 p-8 hoverers">
                          <h1 className="text-lg font-bold resbluetext  mb-3">
