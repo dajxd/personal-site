@@ -27,16 +27,10 @@
     color: #1D3556;
 }
 
-.metasite {
+#metasite {
     
     background-image: url("./metasite.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
 }
-/* 
-#aboutbox {
-    background-image: url("./whiteflower.PNG");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    /* background-size: cover; }*/

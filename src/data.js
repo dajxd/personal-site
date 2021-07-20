@@ -3,7 +3,7 @@ export const webprojects = [
     title: "Dave's Student Portal",
     subtitle: "Node.js, MongoDB, Pug",
     description:
-      "An always-up-to-date resource for my music students for homework, worksheets, charts, and more. Includes a protected database update page, and a log viewer of previous entries.",
+      "An always-up-to-date resource for my music students for homework, worksheets, charts, and more. Includes a protected database update page for my use, as well as a log viewer for previous entries.",
     image: "./studentportal.png",
     link: "https://www.davesstudents.com",
   },
@@ -19,7 +19,7 @@ export const webprojects = [
     title: "Monroe Strongback",
     subtitle: "Javascript, jQuery",
     description:
-      "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little animations, and a whole lot of box-shadow.",
+      "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little CSS animations, and a whole lot of box-shadow.",
     image: "./monroe.png", 
     link: "",
   },
@@ -50,7 +50,7 @@ export const deviceprojects = [
     link: "#",
   },
   {
-    title: "Portable PDF Music Displayer",
+    title: "PDF Music Box",
     subtitle: "Python and extreme amounts of PDF optimization",
     description:
       "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
@@ -64,7 +64,7 @@ export const utilityprojects = [
     title: "API 7800 Settings Saver",
     subtitle: "Python, Tkinter, more math than I anticipated.",
     description:
-      "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers.",
+      "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers. Mapping that was the trickiest part!",
     image: "./apicrop.png",
     link: "#",
   },
@@ -72,7 +72,7 @@ export const utilityprojects = [
     title: "Clipboard Tracker",
     subtitle: "Python, Tkinter",
     description:
-      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space.",
+      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has it's own prettier one!",
     image: "./clipper.png",
     link: "#",
   },
@@ -80,7 +80,7 @@ export const utilityprojects = [
     title: "Gimmetune Bot",
     subtitle: "Python, Reddit API",
     description:
-      "Created for the users of a music subreddit, this bot watches for posts that begin \"!gt\", and quickly replies with a link to the first YouTube result for the rest of post. Largely for mobile users who want to easily link to a song. Sadly out of commission for the time being.",
+      "Created for the users of a music subreddit, this bot watches for posts that begin \"!gt\", and quickly replies with a link to the first YouTube result for the rest of post. Largely for mobile users who want to easily link to a song. Out of commission now because I no longer use the website.",
     image: "./gimmetune.png",
     link: "#",
   },

@@ -1,6 +1,7 @@
 
 import React from "react";
 import { webprojects } from "../data";
+import ProgressiveImage from "react-progressive-image";
 
 export default function WebProjects() {
   return (
@@ -11,7 +12,7 @@ export default function WebProjects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font-only mb-4 resyellowtext">
             Web Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
             Some for clients, some for fun!
           </p>
         </div>
@@ -33,6 +34,7 @@ export default function WebProjects() {
                   className="absolute inset-0 w-full h-full min-h-full object-cover object-center"
                   src={project.image}
                 />
+                
                 
                 <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100" >
                   <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
@@ -62,6 +64,9 @@ export default function WebProjects() {
                       className="absolute inset-0 w-full h-full min-h-full object-cover object-center"
                       src={project.image}
                     />
+                    {/* <ProgressiveImage src={project.largeimage} placeholder={project.image}>
+                      {src => <img src={src} alt={project.title} class="absolute inset-0 w-full h-full min-h-full object-cover object-center"/>}
+                    </ProgressiveImage> */}
                     
                     <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
                       <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
@@ -80,14 +85,13 @@ export default function WebProjects() {
         }
           
           )}
-          <a
-              
+          <a 
               key=""
               className="sm:w-100 md:w-1/2 lg:w-1/2 xl:w-1/3 h-100 p-8">
                 <h1 className="title-font text-lg font-bold text-white mb-3">
                     Personal Site
                   </h1>
-              <div className="flex relative min-h-full resbluetext metasite">
+              <div className="flex relative min-h-full resbluetext" id="metasite">
 
                 <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 border-gray-800 bg-gray-50 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
