@@ -37,7 +37,7 @@ export const webprojects = [
     description:
       "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
     image: "./fff.png",
-    link: "./freqfreakfree/",
+    link: "https://github.com/dajxd/FreqFreakFree",
   },
 ];
 export const deviceprojects = [
@@ -92,4 +92,22 @@ export const utilityprojects = [
     image: "./chord.png",
     link: "",
   },
+  {
+    title: "Vimkey",
+    subtitle: "Autohotkey",
+    description:
+      "A little script I wrote to allow me to use vim navigation keys around windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
+    image: "./comingsoonblue.png",
+    link: "https://github.com/dajxd/vimkey",
+  },
+  {
+    title: "Rosterizer",
+    subtitle: "Python, Urwid",
+    description:
+      "TUI app I made for taking notes during NFL games. It allows you to choose from the day's games that have not ended, and will open the roster for each team in adjacent Vim instances. One of many NFL-related scripts!",
+    image: "./comingsoonblue.png",
+    link: "https://github.com/dajxd/NFLScripts/blob/master/rosterizer.py",
+  },
 ];
+
+
