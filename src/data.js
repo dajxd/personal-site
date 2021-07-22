@@ -108,6 +108,16 @@ export const utilityprojects = [
     image: "./comingsoonblue.png",
     link: "https://github.com/dajxd/NFLScripts/blob/master/rosterizer.py",
   },
+  {
+    title: "KeepBrowser",
+    subtitle: "Python, Urwid",
+    description:
+      "Another TUI, this one for browsing Google Keep notes in the terminal. One script to sync the notes to your home folder, and another for the browsing interface.",
+    image: "./comingsoonblue.png",
+    link: "https://github.com/dajxd/KeepBrowser",
+  },
 ];
+
+
 
 
