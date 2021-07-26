@@ -54,7 +54,7 @@ export const deviceprojects = [
     subtitle: "Python and extreme amounts of PDF optimization",
     description:
       "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
-    image: "./comingsoon.png",
+    image: "./pdfmusic.png",
     link: "",
   },
 
@@ -66,7 +66,7 @@ export const utilityprojects = [
     description:
       "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers. Mapping that was the trickiest part!",
     image: "./apicrop.png",
-    link: "",
+    link: "https://github.com/dajxd/apisettings",
   },
   {
     title: "Clipboard Tracker",
@@ -88,7 +88,7 @@ export const utilityprojects = [
     title: "Chord Speller",
     subtitle: "Python, Tkinter",
     description:
-      "A tool that parses the name of a chord and returns the notes that belong in it. Created for my students who are beginning to learn chord theory.",
+      "A tool that parses the name of a chord and returns the notes that belong in it. Created for my students who are beginning to learn chord theory. I remade this project in Rust, but never got it out of the terminal.",
     image: "./chord.png",
     link: "",
   },
@@ -97,7 +97,7 @@ export const utilityprojects = [
     subtitle: "Autohotkey",
     description:
       "A little script I wrote to allow me to use vim navigation keys around windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
-    image: "./comingsoonblue.png",
+    image: "./vim.png",
     link: "https://github.com/dajxd/vimkey",
   },
   {
@@ -105,7 +105,7 @@ export const utilityprojects = [
     subtitle: "Python, Urwid",
     description:
       "TUI app I made for taking notes during NFL games. It allows you to choose from the day's games that have not ended, and will open the roster for each team in adjacent Vim instances. One of many NFL-related scripts!",
-    image: "./comingsoonblue.png",
+    image: "./rosterizer.png",
     link: "https://github.com/dajxd/NFLScripts/blob/master/rosterizer.py",
   },
   {
@@ -113,7 +113,7 @@ export const utilityprojects = [
     subtitle: "Python, Urwid",
     description:
       "Another TUI, this one for browsing Google Keep notes in the terminal. One script to sync the notes to your home folder, and another for the browsing interface.",
-    image: "./comingsoonblue.png",
+    image: "./keep.png",
     link: "https://github.com/dajxd/KeepBrowser",
   },
 ];

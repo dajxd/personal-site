@@ -7,6 +7,15 @@
     color: #1D3556;
 }
 
+#metasite {
+
+    background-image: url("./metasite.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    color: rgba(55, 65, 81, var(--tw-text-opacity))
+}
+
 .resyellow {
     background-color: #FBF2DA;
     color: #1D3556;
@@ -16,9 +25,11 @@
     background-color: #1D3556;
     color: #FBF2DA;
 }
+
 .resblueback {
     background-color: #1D3556;
 }
+
 .resyellowtext {
     color: #FBF2DA;
 }
@@ -27,10 +38,30 @@
     color: #1D3556;
 }
 
-#metasite {
-    
-    background-image: url("./metasite.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: cover;
+
+.imageborder {
+
+    transition: all .2s ease;
+
+
+    outline: none;
+    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
+    border: solid 3px #FBF2DA;
+
+}
+
+.irround {
+    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
+
+}
+
+
+.notes {
+    outline: none;
+    transition: all .2s ease;
+    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
+    border: solid 2px rgba(252, 165, 165);
+    box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
+    -webkit-box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
+    -moz-box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
 }
