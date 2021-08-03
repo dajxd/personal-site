@@ -11,7 +11,7 @@ export default function About() {
                         Hey! I'm Dave, a maker of code and music and things.
                     </h1>
                     <MinusIcon className="h-10 resyellowtext mb-4"/>
-                    <h2 className="title-font   text-2xl mb-4 font-medium resbluetext">
+                    <h2 className="title-font text-2xl mb-4 font-medium resbluetext">
                         This is my code's house. You don't have to take your shoes off.
                     </h2>
                         <br className="hidden lg:inline-block font-bold"/>

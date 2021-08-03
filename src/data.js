@@ -21,7 +21,7 @@ export const webprojects = [
     title: "Monroe Strongback",
     subtitle: "Javascript, jQuery",
     description:
-      "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little CSS animations, and a whole lot of box-shadow.",
+      "An electronic musician's portal page. Made to specific design specs, including a decoder puzzle to get to a \"secret\" page. Lots of little CSS animations, and a whole lot of box-shadow.",
     image: "./monroe.png", 
     link: "",
     fit:"object-top",
@@ -39,7 +39,7 @@ export const webprojects = [
     title: "FreqFreak Free",
     subtitle: "Javascript",
     description:
-      "A lighthearted frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
+      "A lighthearted frequency ear training website for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so. Points are awarded based on how close the guess was. I felt like I had to make this when I learned about the Web Audio API!",
     image: "./fff.png",
     link: "https://github.com/dajxd/FreqFreakFree",
     fit:"object-top",
@@ -50,15 +50,15 @@ export const deviceprojects = [
     title: "Melody Maker",
     subtitle: "Python on the Raspberry Pi",
     description:
-      "An eInk display which will generate a random melody and title when you press one of the buttons. Each button down loosens the rules for what it considers a reasonable melody. The challenge was in drawing the notes! Next step is adding a little speaker to play the melody, which should be trivial since the software already has the note names.",
-    image: "./melodysmall.png",
+      "An eInk display which will generate a random melody (and title!) when you press one of the buttons. Each button down loosens the rules for what it considers a reasonable melody. The challenge was in drawing the notes! Next step is adding a little speaker to play the melody, which should be trivial since the software already has the note names.",
+    image: "./melody.png",
     link: "",
   },
   {
     title: "PDF Music Box",
     subtitle: "Python and extreme amounts of PDF optimization",
     description:
-      "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
+      "A knob, a button, and a foot pedal give me access to all of my lesson books anywhere there's a TV or a monitor. I attach it to a tiny 5 inch one when that will suffice. The main goal of this was page flipping with a pedal, but that ended up being the simplest part of the project!",
     image: "./pdfmusic.png",
     link: "",
   },
@@ -69,15 +69,15 @@ export const utilityprojects = [
     title: "API 7800 Settings Saver",
     subtitle: "Python, Tkinter, more math than I anticipated.",
     description:
-      "Growing up with digital audio software, I missed the presets when I moved to hardware units. This software allows me to input and catalog my settings for the future, and matches the exponential value increase in its potentiometers. Mapping that was the trickiest part!",
-    image: "./apicrop.png",
+      "Growing up with digital audio software, I missed having the presets when I upgraded to hardware units. This software allows me to input and catalog my settings for this unit, and matches the exponential value increase in its potentiometers. Mapping that was the trickiest part!",
+    image: "./api.png",
     link: "https://github.com/dajxd/apisettings",
   },
   {
     title: "Clipboard Tracker",
     subtitle: "Python, Tkinter",
     description:
-      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has its own prettier one!",
+      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text and images are listed and can be retrieved to the clipboard with a click. Images are previewable. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has its own prettier one!",
     image: "./clipper.png",
     link: "",
   },
@@ -101,7 +101,7 @@ export const utilityprojects = [
     title: "Vimkey",
     subtitle: "Autohotkey",
     description:
-      "A little script I wrote to allow me to use vim navigation keys around windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
+      "A little script I wrote to allow me to use vim navigation keys around Windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
     image: "./vim.png",
     link: "https://github.com/dajxd/vimkey",
   },
@@ -109,7 +109,7 @@ export const utilityprojects = [
     title: "Rosterizer",
     subtitle: "Python, Urwid",
     description:
-      "TUI app I made for taking notes during NFL games. It allows you to choose from the day's games that have not ended, and will open the roster for each team in adjacent Vim instances. One of many NFL-related scripts!",
+      "A TUI app I made for taking notes during NFL games. It allows you to choose from the day's games that have not ended, and will open the roster for each team in adjacent Vim instances. One of many NFL-related scripts!",
     image: "./rosterizer.png",
     link: "https://github.com/dajxd/NFLScripts/blob/master/rosterizer.py",
   },
@@ -117,7 +117,7 @@ export const utilityprojects = [
     title: "KeepBrowser",
     subtitle: "Python, Urwid",
     description:
-      "Another TUI, this one for browsing Google Keep notes in the terminal. One script to sync the notes to your home folder, and another for the browsing interface.",
+      "Another TUI, this one for browsing Google Keep notes in the terminal. One script to sync the notes to your home folder, and another to use the browsing interface.",
     image: "./keep.png",
     link: "https://github.com/dajxd/KeepBrowser",
   },

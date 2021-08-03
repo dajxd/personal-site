@@ -41,7 +41,7 @@ export default function WebProjects() {
 
                                                 <div
                                                     className="px-8 py-10 relative z-9 w-full min-h-full notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
-                                                    <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
+                                                    <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
                                                         {project.subtitle}
                                                     </h2>
 
@@ -75,7 +75,7 @@ export default function WebProjects() {
 
                                             <div
                                                 className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
-                                                <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
+                                                <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
                                                     {project.subtitle}
                                                 </h2>
 
@@ -104,13 +104,15 @@ export default function WebProjects() {
                             />
                             <div
                                 className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
+                                <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
                                     React, Tailwind CSS
                                 </h2>
 
                                 <p className="leading-relaxed text-grey-900">A simple one-page personal and portfolio
                                     site with images and descriptions of some of my projects. It may look familiar to
-                                    you.</p>
+                                    you. There's still some work to be done! I wanted to make a very responsive site 
+                                    that reflected my personality more than the many very techy-looking portfolio sites. 
+                                    My goal was warmth, flexibility, and a little bit of cute.</p>
 
                             </div>
                         </div>

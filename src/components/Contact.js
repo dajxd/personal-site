@@ -27,15 +27,15 @@ export default function Contact() {
     return (
         <section id="contact" className="relative">
             <div
-                className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap resblue rounded-lg overflow-hidden p-10">
+                className="container px-5 py-10 mx-auto flex flex-wrap resblue rounded-lg overflow-hidden p-10">
                 <div
-                    className="py-10 text-2xl md:px-10 lg:text-2xl lg:px-10 font-medium title-font sm:w-full m:w-full lg:w-1/2">
-                    <h2 className=" font-semibold">
+                    className="text-2xl lg:text-3xl px-0 lg:px-10 mb-10 inline-block lg:w-1/2">
+                    <h2 className="font-semibold">
                         Email
                     </h2>
-                    <p className="text-indigo-400 leading-relaxed " id="em">
+                    <p className="text-indigo-400 leading-relaxed" id="em">
                     </p>
-                    <h2 className="title-font font-semibold mt-4 ">
+                    <h2 className="title-font font-semibold mt-4">
                         Cell
                     </h2>
                     <p className="leading-relaxed " id="pn"></p>
@@ -46,7 +46,7 @@ export default function Contact() {
                     name="contact"
                     onSubmit={handleSubmit}
                     className="lg:w-1/2 md:w-full flex flex-col w-full">
-                    <h2 className="text-4xl md:text-3xl mb-1 font-medium title-font">
+                    <h2 className="text-3xl mb-1 font-medium title-font text-center lg:text-left">
                         Feel free to reach out!
                     </h2>
                     <div className="relative mb-4">
@@ -57,7 +57,7 @@ export default function Contact() {
                             type="text"
                             id="name"
                             name="name"
-                            className="w-full bg-gray-200 rounded border border-gray-700 focus:ring-2 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out resbluetext"
+                            className="w-full bg-gray-200 rounded focus:ring-1 text-base outline-none py-1 px-3 leading-8 resbluetext"
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                             type="email"
                             id="email"
                             name="email"
-                            className="w-full bg-gray-200 rounded border border-gray-700 focus:ring-2 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out resbluetext"
+                            className="w-full bg-gray-200 rounded focus:ring-1 text-base outline-none py-1 px-3 leading-8 resbluetext"
                             onChange={(e) => setEmail(e.target.value)}
                         />
                     </div>
@@ -82,7 +82,7 @@ export default function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            className="w-full bg-gray-200 rounded border border-gray-700 focus:ring-2 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out resbluetext"
+                            className="w-full bg-gray-200 rounded focus:ring-1 h-32 text-base outline-none py-1 px-3 resize-none leading-6 resbluetext"
                             onChange={(e) => setMessage(e.target.value)}
                         />
                     </div>

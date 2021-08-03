@@ -3,11 +3,11 @@ import React from "react";
 export default function Bio() {
     return (
         <section id="bio">
-            <div className="container mx-auto flex md:px-10 py-20 sm:px-5 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex md:px-10 py-20 px-5 md:flex-row flex-col items-center">
                 <div
                     className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center lg:w-1/2 w-full px-10">
 
-                    <h1 className="title-font-only sm:text-3xl text-2xl mb-4 font-medium resbluetext">
+                    <h1 className="title-font-only text-3xl md:text-2xl mb-4 font-medium resbluetext">
                         A bit about me.<img className="ml-5 w-7 mb-4 inline" src="./blackflower.PNG"
                                             alt="Just a pretty divider flower!"/>
                         <br className="lg:inline-block"/>
@@ -36,7 +36,7 @@ export default function Bio() {
                         <p><br/>
                             Mostly I'm addicted to the feeling of "Oh! I get it now". The more byzantine and dense it seems at the outset, the better the payoff.
                         </p>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </section>

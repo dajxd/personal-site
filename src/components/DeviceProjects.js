@@ -28,13 +28,13 @@ export default function DeviceProjects() {
                             <div className="flex relative min-h-full resbluetext z-9">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full lg:object-cover object-center imageborder bordershape object-contain"
+                                    className="absolute inset-0 w-full h-full object-center imageborder bordershape object-contain"
                                     src={project.image}
                                 />
 
                                 <div
                                     className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
+                                    <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
                                         {project.subtitle}
                                     </h2>
 

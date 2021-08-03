@@ -41,26 +41,25 @@ button {
     color: #1D3556;
 }
 
-
 .imageborder {
     transition: all .2s ease;
     outline: none;
     border: solid 3px #FBF2DA;
 }
 
-
 .notes {
     outline: none;
     transition: all .2s ease;
     border: solid 2px rgba(252, 165, 165);
-    /* box-shadow: 0px 0px 0px 2px #1D3556;
-    -webkit-box-shadow: 0px 0px 2px #1D3556;
-    -moz-box-shadow: 0px 0px 0px 2px #1D3556; */
+    box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
+    -moz-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
 }
 
 .bordershape {
     border-radius: 10px 10px 10px 10px/10px 10px 10px 10px;
 }
+
 .smallimage {
     width:50%;
 }
