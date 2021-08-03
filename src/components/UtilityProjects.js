@@ -12,7 +12,7 @@ export default function UtilityProjects() {
                         Utility Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
-                        Made (almost) entirely for my own use. They ain't pretty, but they're portable and dependable.
+                        Made (almost) entirely for my own use. They ain't always pretty, but they're portable and dependable.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">

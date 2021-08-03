@@ -77,7 +77,7 @@ export const utilityprojects = [
     title: "Clipboard Tracker",
     subtitle: "Python, Tkinter",
     description:
-      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has it's own prettier one!",
+      "This tool docks on the right side of the primary monitor, and keeps track of the last fifty clipboard items. Text or images are listed and can be clicked to copy. It can be manually cleared, or changed to remember fewer items to reclaim some screen space. No longer useful since Windows now has its own prettier one!",
     image: "./clipper.png",
     link: "",
   },
