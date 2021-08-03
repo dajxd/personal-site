@@ -14,7 +14,7 @@ export default function Bio() {
                     </h1>
                     <img src="three.jpg" className="md:w-1/3 lg:w-1/2 w-full pb-6"
                          alt="Diane, Alexandra and I! You can guess which one is the pup."/>
-                    <div className="text-xl leading-relaxed lg:w-2/3 w-full">
+                    <div className="text-xl leading-relaxed xl:w-1/2 w-full">
                         <p>
                             Well, it's not <i>entirely</i> tech hobbies.</p><br className="inline-block"/><p> I'm a
                         massive NFL geek, I root Dallas but that's sort of secondary to what fascinates me about the
@@ -24,19 +24,17 @@ export default function Bio() {
                     </p><br/>
                         <p>
                             I'm a dedicated doer and maker of crosswords, a constant composer of music with too many
-                            chord changes, and a 3D art hobbyist. I keep a DIY recording studio upstate so these parts
+                            chord changes, and a Blender hobbyist. I keep a DIY recording studio upstate so these parts
                             of my life can have their dedicated time.
                         </p><br/>
                         <p>
                             The other side of my professional life is mixing recorded and live music, as well teaching a
-                            range of instruments to a wide range of ages. My hope is to expose students to music via as
-                            many angles as possible, since (as with most art forms) all roads lead to the same weird
-                            amorphous place.
+                            range of instruments to a wide range of ages.
                         </p><br/>
                         <p>I'm also obligated to say that I keep a constantly-evolving Arch machine, or else they won't
                             let me into the meetings. Sometimes it's the best tool, often it's the most fun!</p>
                         <p><br/>
-                            I think mostly I'm just a learner. Sort of addicted to the feeling of "Oh! I get it now".
+                            Mostly I'm addicted to the feeling of "Oh! I get it now". The more byzantine and dense it seems at the outset, the better the payoff.
                         </p>
                     </div>
                 </div>

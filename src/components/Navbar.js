@@ -27,7 +27,7 @@ export default function Navbar() {
                 </nav>
                 <a
                     href="#contact"
-                    className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-4 md:mt-0 resblue">
+                    className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-4 md:mt-0 resblue bordershape">
                     Contact
                 </a>
             </div>

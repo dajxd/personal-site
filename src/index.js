@@ -15,6 +15,9 @@ window.onload = function () {
     p.innerHTML = '<a href="tel:3152727171">315.272.7171</a>';
     let e = document.getElementById('em');
     e.innerHTML = '<a href="mailto:dave@davemcnamara.com">dave@davemcnamara.com</a>'
+    // be good
+    const begood = document.createComment('you\'re going through my medicine cabinet, huh?');
+    document.prepend(begood)
 };
 
 document.addEventListener('touchstart', (evt) => {

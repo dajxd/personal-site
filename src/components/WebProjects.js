@@ -9,15 +9,16 @@ export default function WebProjects() {
                 <div className="flex flex-col w-full mb-20">
                     <img className="mx-auto inline-block w-10 mb-4" src="./whiteflower.PNG"
                          alt="Just a pretty divider flower!"/>
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font-only mb-4 resyellowtext">
+                    <h1 className="text-4xl md:text-3xl font-medium title-font-only mb-4 resyellowtext">
                         Web Projects
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
+                    <p className="mx-auto leading-relaxed text-base text-white">
                         Some for clients, some for fun!
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {webprojects.map((project) => {
+                        const imgClass = project.fit.concat(" absolute inset-0 w-full h-full min-h-full object-cover imageborder bordershape")
                             if (project.link !== "") {
                                 return (
 
@@ -25,7 +26,7 @@ export default function WebProjects() {
 
                                         key={project.image}
                                         target="blank"
-                                        className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
                                         <h1 className="text-lg font-bold text-white mb-3">
                                             {project.title}
                                         </h1>
@@ -33,13 +34,13 @@ export default function WebProjects() {
                                             <a href={project.link} target="blank">
                                                 <img
                                                     alt={project.title}
-                                                    className="absolute inset-0 w-full h-full min-h-full object-cover object-top imageborder"
+                                                    className={imgClass}
                                                     src={project.image}
                                                 />
 
 
                                                 <div
-                                                    className="px-8 py-10 relative z-9 w-full min-h-full notes bg-gray-50 opacity-0 hover:opacity-100">
+                                                    className="px-8 py-10 relative z-9 w-full min-h-full notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
                                                     <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                                                         {project.subtitle}
                                                     </h2>
@@ -57,7 +58,7 @@ export default function WebProjects() {
                                     <div
 
                                         key={project.image}
-                                        className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
                                         <h1 className="text-lg font-bold text-white mb-3">
                                             {project.title}
                                         </h1>
@@ -65,7 +66,7 @@ export default function WebProjects() {
 
                                             <img
                                                 alt={project.title}
-                                                className="absolute inset-0 w-full h-full min-h-full object-cover object-center imageborder"
+                                                className={imgClass}
                                                 src={project.image}
                                             />
                                             {/* <ProgressiveImage src={project.largeimage} placeholder={project.image}>
@@ -73,7 +74,7 @@ export default function WebProjects() {
                     </ProgressiveImage> */}
 
                                             <div
-                                                className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bg-gray-50 opacity-0 hover:opacity-100">
+                                                className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
                                                 <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                                                     {project.subtitle}
                                                 </h2>
@@ -91,18 +92,18 @@ export default function WebProjects() {
                     )}
                     <a
                         key=""
-                        className="md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/3 h-100 p-8">
-                        <h1 className="title-font text-lg font-bold text-white mb-3">
+                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                            <h1 className="title-font text-lg font-bold text-white mb-3">
                             Personal Site
                         </h1>
-                        <div className="flex relative min-h-full resbluetext irround" id="metasite">
+                        <div className="flex relative min-h-full resbluetext bordershape" id="metasite">
                             <div
 
-                                className="absolute inset-0 w-full h-full min-h-full object-cover object-center imageborder"
+                                className="absolute inset-0 w-full h-full min-h-full object-cover object-center imageborder bordershape"
 
                             />
                             <div
-                                className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bg-gray-50 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-1">
                                     React, Tailwind CSS
                                 </h2>

@@ -25,7 +25,7 @@ export default function Contact() {
     }
 
     return (
-        <section id="contact" className="relative md:border-none border-b-4 border-red-300">
+        <section id="contact" className="relative md:border-none border-b-4">
             <div
                 className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap resblue rounded-lg overflow-hidden p-10">
                 <div
@@ -46,7 +46,7 @@ export default function Contact() {
                     name="contact"
                     onSubmit={handleSubmit}
                     className="lg:w-1/2 md:w-full flex flex-col w-full">
-                    <h2 className=" sm:text-4xl text-3xl mb-1 font-medium title-font">
+                    <h2 className="text-4xl md:text-3xl mb-1 font-medium title-font">
                         Feel free to reach out!
                     </h2>
                     <div className="relative mb-4">
@@ -88,7 +88,7 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold lg:w-1/2 md:w-1/2 sm:w-auto ">
+                        className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold md:w-1/2 w-auto bordershape">
                         Submit
                     </button>
                 </form>

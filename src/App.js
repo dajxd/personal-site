@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <main className="text-gray-700 bg-gray-50 body-font">
+      
       <Navbar />
       <About />
       <WebProjects />

@@ -6,6 +6,7 @@ export const webprojects = [
       "An always-up-to-date resource for my music students for homework, worksheets, charts, and more. Includes a protected database update page for my use, as well as a log viewer for previous entries.",
     image: "./studentportal.png",
     link: "https://www.davesstudents.com",
+    fit:"object-center",
   },
   {
     title: "Black Duck Moments",
@@ -14,6 +15,7 @@ export const webprojects = [
       "A hub for a psychologist's patients, with a scheduled e-mail support program and book purchase incentives. Made for the client to be able to handle future updates themselves.",
     image: "./bdm.png",
     link: "",
+    fit:"object-top",
   },
   {
     title: "Monroe Strongback",
@@ -22,6 +24,7 @@ export const webprojects = [
       "An electronic musician's portal page. Made to specific design specs, and including a decoder puzzle to get to a \"secret\" page. Lots of little CSS animations, and a whole lot of box-shadow.",
     image: "./monroe.png", 
     link: "",
+    fit:"object-top",
   },
   {
     title: "Web of Sites",
@@ -30,14 +33,16 @@ export const webprojects = [
       "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this. Not a marvel of code, but it's fun working in notepad now and then.",
     image: "wos.png",
     link: "./webofsites/",
+    fit:"object-top",
   },
   {
     title: "FreqFreak Free",
     subtitle: "Javascript",
     description:
-      "A not-entirely-serious frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
+      "A lighthearted frequency ear training websites for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so.",
     image: "./fff.png",
     link: "https://github.com/dajxd/FreqFreakFree",
+    fit:"object-top",
   },
 ];
 export const deviceprojects = [

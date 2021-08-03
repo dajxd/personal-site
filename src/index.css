@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
+}
 #name, .title-font-only {
     font-family: 'Otomanopee One', sans-serif;
     color: #1D3556;
@@ -40,28 +43,24 @@
 
 
 .imageborder {
-
     transition: all .2s ease;
-
-
     outline: none;
-    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
     border: solid 3px #FBF2DA;
-
-}
-
-.irround {
-    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
-
 }
 
 
 .notes {
     outline: none;
     transition: all .2s ease;
-    border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
     border: solid 2px rgba(252, 165, 165);
-    box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
-    -webkit-box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
-    -moz-box-shadow: -1px -1px 0px 2px rgba(31, 41, 55, 1);
+    /* box-shadow: 0px 0px 0px 2px #1D3556;
+    -webkit-box-shadow: 0px 0px 2px #1D3556;
+    -moz-box-shadow: 0px 0px 0px 2px #1D3556; */
+}
+
+.bordershape {
+    border-radius: 10px 10px 10px 10px/10px 10px 10px 10px;
+}
+.smallimage {
+    width:50%;
 }
