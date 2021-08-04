@@ -30,12 +30,12 @@ export default function Contact() {
                 className="container px-5 py-10 mx-auto flex flex-wrap resblue rounded-lg overflow-hidden p-10 justify-center w-full xl:w-2/3">
                 <div
                     className="text-2xl lg:text-3xl px-0 lg:px-10 mb-10 inline-block lg:w-1/2 text-center lg:text-left">
-                    <h2 className="font-semibold">
+                    <h2 className="title-font font-semibold">
                         Email
                     </h2>
                     <p className="text-indigo-400 leading-relaxed text-2xl" id="em">
                     </p>
-                    <h2 className="title-font font-semibold mt-4">
+                    <h2 className="title-font mt-4 font-semibold">
                         Cell
                     </h2>
                     <p className="text-indigo-400 leading-relaxed text-2xl" id="pn"></p>

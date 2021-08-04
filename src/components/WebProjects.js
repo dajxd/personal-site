@@ -9,7 +9,7 @@ export default function WebProjects() {
                 <div className="flex flex-col w-full mb-20">
                     <img className="mx-auto inline-block w-10 mb-4" src="./whiteflower.PNG"
                          alt="Just a pretty divider flower!"/>
-                    <h1 className="text-4xl md:text-3xl font-medium title-font-only mb-4 resyellowtext">
+                    <h1 className="text-4xl md:text-3xl font-medium title-font-blue mb-4 resyellowtext">
                         Web Projects
                     </h1>
                     <p className="mx-auto leading-relaxed text-base text-white">

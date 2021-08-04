@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#name, .title-font-only {
-    font-family: 'Otomanopee One', sans-serif;
-    color: #1D3556;
-}
+
 
 #metasite {
     background-image: url("./metasite.png");
@@ -13,6 +10,16 @@
     background-position-x: center;
     background-size: cover;
     color: rgba(55, 65, 81, var(--tw-text-opacity))
+}
+
+.title-font-blue {
+    font-family: 'Otomanopee One', sans-serif;
+    color: #1D3556;
+}
+
+.title-font-yellow {
+    font-family: 'Otomanopee One', sans-serif;
+    color: #FBF2DA;
 }
 
 .resyellow {

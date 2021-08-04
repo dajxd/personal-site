@@ -101,7 +101,7 @@ export const utilityprojects = [
         title: "Vimkey",
         subtitle: "Autohotkey",
         description:
-            "A little script I wrote to allow me to use vim navigation keys around Windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
+            "A little script I wrote to allow me to use Vim navigation keys around Windows. Hold the capslock button down, and HJKL behave like arrow keys. Helpful for us 60% keyboard users!",
         image: "./vim.png",
         link: "https://github.com/dajxd/vimkey",
     },

@@ -8,7 +8,7 @@ export default function UtilityProjects() {
                 <div className="flex flex-col w-full mb-20">
                     <img className="mx-auto inline-block w-10 mb-4" src="./whiteflower.PNG"
                          alt="Just a pretty divider flower!"/>
-                    <h1 className="text-4xl md:text-3xl font-medium title-font-only resyellowtext mb-4 ">
+                    <h1 className="text-4xl md:text-3xl font-medium title-font-blue resyellowtext mb-4 ">
                         Utility Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">

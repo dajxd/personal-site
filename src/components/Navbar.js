@@ -5,8 +5,8 @@ export default function Navbar() {
         <header
             className="resyellow md:sticky top-0 z-10 md:border-none border-b-4 border-red-300 md:border-none border-b-4 border-red-300">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <p className="title-font font-medium text-white mb-4 md:mb-0">
-                    <a href="#about" className="ml-0 md:ml-3 text-xl" id="name">
+                <p className="title-font-blue font-medium text-white mb-4 md:mb-0">
+                    <a href="#top" className="ml-0 md:ml-3 text-xl" id="name">
                         Dave McNamara
                     </a>
                 </p>
