@@ -21,16 +21,14 @@ export default function WebProjects() {
                             const imgClass = project.fit.concat(" absolute inset-0 w-full h-full min-h-full object-cover imageborder bordershape")
                             if (project.link !== "") {
                                 return (
-
                                     <div
-
                                         key={project.image}
                                         target="blank"
-                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 ">
                                         <h1 className="text-lg font-bold text-white mb-3">
                                             {project.title}
                                         </h1>
-                                        <div className="flex relative min-h-full resbluetext ">
+                                        <div className="flex relative min-h-full resbluetext">
                                             <a href={project.link} target="blank">
                                                 <img
                                                     alt={project.title}
@@ -54,11 +52,9 @@ export default function WebProjects() {
                                 )
                             } else {
                                 return (
-
                                     <div
-
                                         key={project.image}
-                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8">
                                         <h1 className="text-lg font-bold text-white mb-3">
                                             {project.title}
                                         </h1>
@@ -92,7 +88,7 @@ export default function WebProjects() {
                     )}
                     <a
                         key=""
-                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
+                        className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 ">
                         <h1 className="title-font text-lg font-bold text-white mb-3">
                             Personal Site
                         </h1>
@@ -105,9 +101,8 @@ export default function WebProjects() {
                                 <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
                                     React, Tailwind CSS
                                 </h2>
-                                <p className="leading-relaxed text-grey-900">A simple one-page personal and portfolio
-                                    site with images and descriptions of some of my projects. It may look familiar to
-                                    you. There's still some work to be done! I wanted to make a very responsive site
+                                <p className="leading-relaxed text-grey-900">A simple single page personal and portfolio
+                                    site. It may look familiar to you! I wanted to make a very responsive site
                                     that reflected my personality more than the many very techy-looking portfolio sites.
                                     My goal was warmth, flexibility, and a little bit of cute.</p>
                             </div>

@@ -23,7 +23,7 @@ export default function UtilityProjects() {
                                 <a href={project.link} target="_blank"
 
                                    key={project.image}
-                                   className="w-full lg:w-1/2 p-8 h-100 min-h-full hoverers">
+                                   className="w-full lg:w-1/2 p-8 h-100 min-h-full ">
                                     <h1 className="text-lg font-bold text-white mb-3">
                                         {project.title}
                                     </h1>
@@ -48,7 +48,7 @@ export default function UtilityProjects() {
                             return (
                                 <a
                                     key={project.image}
-                                    className="w-full lg:w-1/2 p-8 h-100 min-h-full hoverers">
+                                    className="w-full lg:w-1/2 p-8 h-100 min-h-full ">
                                     <h1 className="text-lg font-bold text-white mb-3">
                                         {project.title}
                                     </h1>

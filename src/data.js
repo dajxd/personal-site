@@ -39,7 +39,7 @@ export const webprojects = [
         title: "FreqFreak Free",
         subtitle: "Javascript",
         description:
-            "My immediate idea once I learned about the Web Audio API. A lighthearted frequency ear training website for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so. Points are awarded based on how close the guess was.",
+            "My immediate idea once I learned about the Web Audio API: a lighthearted frequency ear training website for audio engineers. It plays white noise with a certain frequency peaked, and awards points based on how close your guess was.",
         image: "./fff.png",
         link: "https://github.com/dajxd/FreqFreakFree",
         fit: "object-top",

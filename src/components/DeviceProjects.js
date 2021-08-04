@@ -21,7 +21,7 @@ export default function DeviceProjects() {
                     {deviceprojects.map((project) => (
                         <div
                             key={project.image}
-                            className="w-full xl:w-1/2 h-100 p-8 hoverers">
+                            className="w-full xl:w-1/2 h-100 p-8 ">
                             <h1 className="text-lg font-bold resbluetext  mb-3">
                                 {project.title}
                             </h1>
