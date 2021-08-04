@@ -13,8 +13,8 @@ export default function DeviceProjects() {
                         Devices
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        I have a hobby of making devices (with sometimes dubious utility), often with Arduino or Raspberry
-                        Pi. Here's a couple recent ones.
+                        I have a hobby of making devices (with sometimes dubious utility), often with Arduino or
+                        Raspberry Pi. Here's a couple recent ones.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4 pb-10 ">

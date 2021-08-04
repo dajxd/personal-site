@@ -1,4 +1,3 @@
-
 import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -11,17 +10,17 @@ import Footer from "./components/Footer";
 
 
 export default function App() {
-  return (
-    <main className="text-gray-700 bg-gray-50 body-font">
-      
-      <Navbar />
-      <About />
-      <WebProjects />
-      <DeviceProjects />
-      <UtilityProjects />
-      <Bio />
-      <Contact />
-      <Footer />
-    </main>
-  );
+    return (
+        <main className="text-gray-700 bg-gray-50 body-font">
+
+            <Navbar/>
+            <About/>
+            <WebProjects/>
+            <DeviceProjects/>
+            <UtilityProjects/>
+            <Bio/>
+            <Contact/>
+            <Footer/>
+        </main>
+    );
 }

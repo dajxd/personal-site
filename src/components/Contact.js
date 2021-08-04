@@ -33,12 +33,12 @@ export default function Contact() {
                     <h2 className="font-semibold">
                         Email
                     </h2>
-                    <p className="text-indigo-400 leading-relaxed" id="em">
+                    <p className="text-indigo-400 leading-relaxed text-2xl" id="em">
                     </p>
                     <h2 className="title-font font-semibold mt-4">
                         Cell
                     </h2>
-                <p className="text-indigo-400 leading-relaxed" id="pn"></p>
+                    <p className="text-indigo-400 leading-relaxed text-2xl" id="pn"></p>
                 </div>
                 <form
                     netlify

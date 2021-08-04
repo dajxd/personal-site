@@ -18,7 +18,7 @@ export default function WebProjects() {
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {webprojects.map((project) => {
-                        const imgClass = project.fit.concat(" absolute inset-0 w-full h-full min-h-full object-cover imageborder bordershape")
+                            const imgClass = project.fit.concat(" absolute inset-0 w-full h-full min-h-full object-cover imageborder bordershape")
                             if (project.link !== "") {
                                 return (
 
@@ -93,12 +93,12 @@ export default function WebProjects() {
                     <a
                         key=""
                         className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 hoverers">
-                            <h1 className="title-font text-lg font-bold text-white mb-3">
+                        <h1 className="title-font text-lg font-bold text-white mb-3">
                             Personal Site
                         </h1>
                         <div className="flex relative min-h-full resbluetext bordershape" id="metasite">
                             <div
-                                className="absolute inset-0 w-full h-full min-h-full object-cover object-center imageborder bordershape"          
+                                className="absolute inset-0 w-full h-full min-h-full object-cover object-center imageborder bordershape"
                             />
                             <div
                                 className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
@@ -107,8 +107,8 @@ export default function WebProjects() {
                                 </h2>
                                 <p className="leading-relaxed text-grey-900">A simple one-page personal and portfolio
                                     site with images and descriptions of some of my projects. It may look familiar to
-                                    you. There's still some work to be done! I wanted to make a very responsive site 
-                                    that reflected my personality more than the many very techy-looking portfolio sites. 
+                                    you. There's still some work to be done! I wanted to make a very responsive site
+                                    that reflected my personality more than the many very techy-looking portfolio sites.
                                     My goal was warmth, flexibility, and a little bit of cute.</p>
                             </div>
                         </div>

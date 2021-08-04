@@ -21,7 +21,7 @@ export default function Bio() {
                         sport. I did learn R so I could keep track of each time a player gained his jersey number in
                         yards on a play. Last year's leader was Chase Edmonds. 29 yards. Still waiting on Aaron Donald's
                         endzone pick-six.
-                        </p><br/>
+                    </p><br/>
                         <p>
                             I'm a dedicated doer and maker of crosswords, a constant composer of music with too many
                             chord changes, and a Blender hobbyist. I keep a DIY recording studio upstate so these parts
@@ -34,9 +34,10 @@ export default function Bio() {
                         <p>I'm also obligated to say that I keep a constantly-evolving Arch machine, or else they won't
                             let me into the meetings. Sometimes it's the best tool, often it's the most fun!</p>
                         <p><br/>
-                            Mostly I'm addicted to the feeling of "Oh! I get it now". The more difficult it seems at the outset, the better the payoff.
+                            Mostly I'm addicted to the feeling of "Oh! I get it now". The more difficult it seems at the
+                            outset, the better the payoff.
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </section>

@@ -5,13 +5,13 @@
 button {
     border-radius: 15px 55px 55px 20px/20px 35px 35px 15px;
 }
+
 #name, .title-font-only {
     font-family: 'Otomanopee One', sans-serif;
     color: #1D3556;
 }
 
 #metasite {
-
     background-image: url("./metasite.png");
     background-repeat: no-repeat;
     background-position-x: center;
@@ -24,21 +24,21 @@ button {
     color: #1D3556;
 }
 
+.resyellowtext {
+    color: #FBF2DA;
+}
+
 .resblue {
     background-color: #1D3556;
     color: #FBF2DA;
 }
 
-.resblueback {
-    background-color: #1D3556;
-}
-
-.resyellowtext {
-    color: #FBF2DA;
-}
-
 .resbluetext {
     color: #1D3556;
+}
+
+.resblueback {
+    background-color: #1D3556;
 }
 
 .imageborder {
@@ -58,8 +58,4 @@ button {
 
 .bordershape {
     border-radius: 10px 10px 10px 10px/10px 10px 10px 10px;
-}
-
-.smallimage {
-    width:50%;
 }
