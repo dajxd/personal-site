@@ -27,9 +27,9 @@ export default function Contact() {
     return (
         <section id="contact" className="relative">
             <div
-                className="container px-5 py-10 mx-auto flex flex-wrap resblue rounded-lg overflow-hidden p-10">
+                className="container px-5 py-10 mx-auto flex flex-wrap resblue rounded-lg overflow-hidden p-10 justify-center w-full xl:w-2/3">
                 <div
-                    className="text-2xl lg:text-3xl px-0 lg:px-10 mb-10 inline-block lg:w-1/2">
+                    className="text-2xl lg:text-3xl px-0 lg:px-10 mb-10 inline-block lg:w-1/2 text-center lg:text-left">
                     <h2 className="font-semibold">
                         Email
                     </h2>
@@ -38,15 +38,14 @@ export default function Contact() {
                     <h2 className="title-font font-semibold mt-4">
                         Cell
                     </h2>
-                    <p className="leading-relaxed " id="pn"></p>
+                <p className="text-indigo-400 leading-relaxed" id="pn"></p>
                 </div>
-
                 <form
                     netlify
                     name="contact"
                     onSubmit={handleSubmit}
                     className="lg:w-1/2 md:w-full flex flex-col w-full">
-                    <h2 className="text-3xl mb-1 font-medium title-font text-center lg:text-left">
+                    <h2 className="text-3xl mb-5 font-semibold title-font text-center lg:text-left">
                         Feel free to reach out!
                     </h2>
                     <div className="relative mb-4">
@@ -88,11 +87,10 @@ export default function Contact() {
                     </div>
                     <button
                         type="submit"
-                        className="resyellow border-0 py-2 px-6 focus:outline-none hover:text-red-300 rounded text-xl font-bold md:w-1/2 w-auto bordershape">
+                        className="resyellow border-0 py-3 px-6 focus:text-red-300 hover:text-red-300 rounded text-lg font-bold md:w-1/3 w-auto bordershape ml-auto mr-auto lg:ml-0 lg:mr-0">
                         Submit
                     </button>
                 </form>
-
             </div>
         </section>
     );

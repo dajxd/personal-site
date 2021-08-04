@@ -33,13 +33,13 @@ export const webprojects = [
       "A very serious and highly stylized game name generator, inspired by the endless number of mobile games titled like this. Not a marvel of code, but it's fun working in notepad now and then.",
     image: "wos.png",
     link: "./webofsites/",
-    fit:"object-top",
+    fit:"object-center",
   },
   {
     title: "FreqFreak Free",
     subtitle: "Javascript",
     description:
-      "A lighthearted frequency ear training website for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so. Points are awarded based on how close the guess was. I felt like I had to make this when I learned about the Web Audio API!",
+      "My immediate idea once I learned about the Web Audio API. A lighthearted frequency ear training website for audio engineers to hone their craft. It plays white noise with a certain frequency peaked, and accepts answers within 100hz or so. Points are awarded based on how close the guess was.",
     image: "./fff.png",
     link: "https://github.com/dajxd/FreqFreakFree",
     fit:"object-top",

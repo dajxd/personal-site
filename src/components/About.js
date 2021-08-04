@@ -4,7 +4,7 @@ import React from "react";
 export default function About() {
     return (
         <section id="about" className="md:border-none border-b-4 border-red-300">
-            <div className="container mx-auto flex px-10 py-40 md:flex-row flex-col items-center ">
+            <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ">
                 <div className="lg:flex-grow  flex flex-col md:text-center mb-16 md:mb-0 items-center text-center">
                     {/* <img src="head.png" className="w-1/3"/> */}
                     <h1 className="title-font   text-4xl mb-4 font-medium resbluetext">
@@ -22,12 +22,12 @@ export default function About() {
                     <div className="flex justify-center mt-10">
                         <a
                             href="#contact"
-                            className="inline-flex text-white bg-green-600 border-0 py-2 px-6 hover:bg-green-500 rounded text-xl bordershape">
+                            className="inline-flex text-white bg-green-600 border-0 py-2 px-6 hover:bg-green-500 focus:bg-green-500 rounded text-xl bordershape">
                             Get in touch
                         </a>
                         <a
                             href="#bio"
-                            className="ml-4 inline-flex resblueback border-0 py-2 px-6 hover:bg-gray-700 hover:bg-blue-500 text-white rounded text-xl bordershape">
+                            className="ml-4 inline-flex resblueback border-0 py-2 px-6 hover:bg-gray-700 hover:bg-blue-500 focus:bg-blue-500 text-white rounded text-xl bordershape">
                             Get to know me
                         </a>
                     </div>

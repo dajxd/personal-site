@@ -1,3 +1,3 @@
 # My personal site.
 
-Nothing much to see here, if you're in this repository I'm not sure why!
+If my site requires a readme, I have done something terribly wronng.

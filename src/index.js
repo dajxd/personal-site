@@ -12,14 +12,15 @@ window.addEventListener('scroll', () => {
 window.onload = function () {
     //hoping this'll keep the bots away, didn't want to do an image and force people to type.
     let p = document.getElementById('pn');
-    p.innerHTML = '<a href="tel:3152727171">315.272.7171</a>';
+    p.innerHTML = '<a class="hover:text-blue-500 focus:text-blue-500" href="tel:3152727171">315.272.7171</a>';
     let e = document.getElementById('em');
-    e.innerHTML = '<a href="mailto:dave@davemcnamara.com">dave@davemcnamara.com</a>'
+    e.innerHTML = '<a class="hover:text-blue-500 focus:text-blue-500" href="mailto:dave@davemcnamara.com">dave@davemcnamara.com</a>'
     // be good
-    const begood = document.createComment('you\'re going through my medicine cabinet, huh?');
+    const begood = document.createComment('going through my medicine cabinet, huh?');
     document.prepend(begood)
 };
 
+//Better "mouseover" event on mobile
 document.addEventListener('touchstart', (evt) => {
     let target = evt.target;
     target.style.opacity = 100;

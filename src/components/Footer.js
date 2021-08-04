@@ -6,12 +6,12 @@ export default function Footer() {
             <div className="pb-10 pt-0 w-auto">
                 <a
                     href="#top"
-                    className="border-0 py-2 px-6 mx-10 focus:outline-none hover:bg-gray-700 rounded text-base resblue float-left font-bold">
+                    className="border-0 py-2 px-6 mx-10 focus:outline-none hover:bg-blue-500 focus:bg-blue-500 rounded text-base resblue float-left font-bold">
                     To the top!
                 </a>
                 <a
                     href="http://www.davesstudents.com"
-                    className="border-0 py-2 px-6 mx-10 focus:outline-none hover:bg-gray-700 rounded text-base  resblue float-right font-bold">
+                    className="border-0 py-2 px-6 mx-10 focus:outline-none hover:bg-blue-500 focus:bg-blue-500 rounded text-base  resblue float-right font-bold">
                     Students
                 </a>
             </div>
