@@ -11,7 +11,7 @@ export default function UtilityProjects() {
                     <h1 className="text-4xl md:text-3xl font-medium title-font-blue resyellowtext mb-4 ">
                         Utility Projects
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
+                    <p className="lg:w-1/2 mx-auto leading-relaxed text-lg text-white">
                         Made (almost) entirely for my own use. They ain't always pretty, but they're portable and
                         dependable.
                     </p>

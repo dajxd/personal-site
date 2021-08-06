@@ -12,8 +12,8 @@ export default function DeviceProjects() {
                     <h1 className="text-4xl md:text-3xl font-medium title-font-blue mb-4 resbluetext">
                         Devices
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        I have a hobby of making devices (with sometimes dubious utility), often with Arduino or
+                    <p className="lg:w-1/2 mx-auto leading-relaxed text-lg">
+                        I have a hobby of making devices (sometimes of dubious utility). Often with Arduino or
                         Raspberry Pi. Here's a couple recent ones.
                     </p>
                 </div>

@@ -22,10 +22,10 @@ window.addEventListener('scroll', () => {
     metasite.style.backgroundPositionY = amount.toString() + ("px")
 });
 window.onload = function () {
-    if (isMobile) {
-        const metasite = document.getElementById('metasite');
-        metasite.style.backgroundImage = "url('./metasitemobile.png')";
-    }
+    // if (isMobile) {                                      // getting rid of this until I get a better mobile screen grab.
+    //     const metasite = document.getElementById('metasite');
+    //     metasite.style.backgroundImage = "url('./metasitemobile.png')";
+    // }
     //hoping this'll keep the bots away, didn't want to do an image and force people to type.
     let p = document.getElementById('pn');
     p.innerHTML = '<a class="hover:text-blue-500 focus:text-blue-500" href="tel:3152727171">315.272.7171</a>';

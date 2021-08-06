@@ -12,7 +12,7 @@ export default function WebProjects() {
                     <h1 className="text-4xl md:text-3xl font-medium title-font-blue mb-4 resyellowtext">
                         Web Projects
                     </h1>
-                    <p className="mx-auto leading-relaxed text-base text-white">
+                    <p className="mx-auto leading-relaxed text-lg text-white">
                         Some for clients, some for fun!
                     </p>
                 </div>
