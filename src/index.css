@@ -2,63 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 #metasite {
-    background-image: url("./metasite.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: cover;
-    color: rgba(55, 65, 81, var(--tw-text-opacity))
+  background-image: url("./metasite.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 .title-font-blue {
-    font-family: 'Otomanopee One', sans-serif;
-    color: #1D3556;
+  font-family: "Otomanopee One", sans-serif;
+  color: #1d3556;
 }
 
 .title-font-yellow {
-    font-family: 'Otomanopee One', sans-serif;
-    color: #FBF2DA;
+  font-family: "Otomanopee One", sans-serif;
+  color: #fbf2da;
 }
 
 .resyellow {
-    background-color: #FBF2DA;
-    color: #1D3556;
+  background-color: #fbf2da;
+  color: #1d3556;
 }
 
 .resyellowtext {
-    color: #FBF2DA;
+  color: #fbf2da;
 }
 
 .resblue {
-    background-color: #1D3556;
-    color: #FBF2DA;
+  background-color: #1d3556;
+  color: #fbf2da;
 }
 
 .resbluetext {
-    color: #1D3556;
+  color: #1d3556;
 }
 
 .resblueback {
-    background-color: #1D3556;
+  background-color: #1d3556;
 }
 
 .imageborder {
-    transition: all .2s ease;
-    outline: none;
-    border: solid 3px #FBF2DA;
+  transition: all 0.2s ease;
+  outline: none;
+  border: solid 3px #fbf2da;
 }
 
 .notes {
-    outline: none;
-    transition: all .2s ease;
-    border: solid 2px rgba(252, 165, 165);
-    box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
-    -webkit-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
-    -moz-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, .1);
+  outline: none;
+  transition: all 0.2s ease;
+  border: solid 2px rgba(252, 165, 165);
+  box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -7px 0px 15px -10px rgba(0, 0, 0, 0.1);
 }
 
 .bordershape {
-    border-radius: 10px 10px 10px 10px/10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px/10px 10px 10px 10px;
 }

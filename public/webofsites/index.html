@@ -1,58 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>WEB OF SITES</title>
-    
-    <style type="text/css">
-        body {
-            font-size: 8em;
-            font-family: Arial;
-            text-transform: uppercase;
-            margin-top: 12.5%;
-        }
-		p {
-			font-size:.1em;
-			text-transform: none;
-			color: #CCC;
-			}
-		.bottom {
-			position: absolute;
-			bottom: 5%;
-			align-self: center;
-			width:50%;
-			left: 25%;
-			right: 25%;
-		}
-		.special {
-			color: rgb(146, 16, 16);
-		}
-        button {
-			padding: 20px;
-            font-size: .6em;
-        }
-		#yeah {
-			animation: slam .3s ease-in;
-		}
-
-		@keyframes slam {
-			0% {
-				transform: scale(0);
-				color:white;
-			}
-			75% {
-				transform: scale(.1);
-				color: grey;
-			}
-			100% {
-				transform: scale(1.0);
-				color: black;
-			}
-		}
-    </style>
-</head>
-<body>
-	<div class="bottom"><center><button onClick="window.location.reload()">MORE</button><br/><p>or just press enter or space or something?</p></center></div>
-</body>
-<script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="webofsites.css" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <div id="bottom">
+      <button onClick="window.location.reload()">MORE</button><br />
+      <p>or just press enter or space or something?</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="webofsites.js"></script>
 </html>

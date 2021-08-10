@@ -1,63 +1,69 @@
 <html>
-
-<head>
+  <head>
     <title>FREQFREAKFREE</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-</head>
-<body>
-    <div id="perfect">Perfect!</div>
-    <div id="good">Pretty close!</div>
-    <div id="quit">Quitter.</div>
-    <div id="high">Too high!</div>
-    <div id="low">Too low!</div>
-    <div id="not">Try entering an answer</div>
-    <div id="nan">That's not a number</div>
-    <div id="freq"></div>
+    <link rel="stylesheet" type="text/css" href="fff.css" />
+  </head>
+  <body>
+    // TODO: make the below not stupid. Not sure why I thought I needed 7 divs instead of one and div.innerHTML. Divs must have been on sale.
+    <div id="perfect" class="popup">Perfect!</div>
+    <div id="good" class="popup">Pretty close!</div>
+    <div id="quit" class="popup">Quitter.</div>
+    <div id="high" class="popup">Too high!</div>
+    <div id="low" class="popup">Too low!</div>
+    <div id="not" class="popup">Try entering an answer</div>
+    <div id="nan" class="popup">That's not a number</div>
+    <div id="freq" class="popup"></div>
     <div id="title">
-        <h1>FreqFreak Free</h1>
-        <br>
-        <h3>for a unique, sleek, and chic technique critique</h3>
+      <h1>FreqFreak Free</h1>
+      <br />
+      <h3>for a unique, sleek, and chic technique critique</h3>
     </div>
-    
+
     <div id="appbox">
-        <div id="apptop">
-            <div id="scorediv"><h2>Score:</h2>
-                <p id="score">0</p>
-            </div>
-            <div id="triesdiv"><h2>Attempts:</h2>
-                <p id="tries">0</p>
-            </div>
+      <div id="apptop">
+        <div id="scorediv">
+          <h2>Score:</h2>
+          <p id="score">0</p>
         </div>
-        <div id="allplayers">
-            <div id="eqed" class="player">
-                <audio crossorigin="anonymous" controls="controls" id='audio' src="sounds/2sec.wav"></audio>
-            </div>
-            <div id="normal" class="player">
-                <audio controls="controls" id='audio1' src="sounds/2sec.wav"></audio>
-            </div>
+        <div id="triesdiv">
+          <h2>Attempts:</h2>
+          <p id="tries">0</p>
         </div>
-        <div id="answerdiv">
-            <form action="javascript:checkAnswer()">
-                <p>Peak:</p>
-                <a class="little">(80 - 10,000)</a>
-                <input type="text" id="answer" maxlength="5"> 
-            </form>
-            <div id="buttons">
-            <button name="replay" id="replay" onclick="rePlay()">Play</button>
-            <br/>
-            <button name="go" onclick="checkAnswer()">Check</button>
-            <button name="give" id="give" onclick="giveUp()">Give up</button>
+      </div>
+      <div id="allplayers">
+        <div id="eqed" class="player">
+          <audio
+            crossorigin="anonymous"
+            controls="controls"
+            id="audio"
+            src="sounds/2sec.wav"
+          ></audio>
         </div>
+        <div id="normal" class="player">
+          <audio controls="controls" id="audio1" src="sounds/2sec.wav"></audio>
         </div>
-    
-        
+      </div>
+      <div id="answerdiv">
+        <form action="javascript:checkAnswer()">
+          <p>Peak:</p>
+          <a class="little">(80 - 10,000)</a>
+          <input type="text" id="answer" maxlength="5" />
+        </form>
+        <div id="buttons">
+          <button name="replay" id="replay" onclick="rePlay()">Play</button>
+          <br />
+          <button name="go" onclick="checkAnswer()">Check</button>
+          <button name="give" id="give" onclick="giveUp()">Give up</button>
+        </div>
+      </div>
     </div>
     <div id="footer">
-        <p>Using this page constitutes acceptance of our $15/month service fee. Your card has already been logged because cookies.</p>
+      <p>
+        Using this page constitutes acceptance of our $15/hour service fee.
+        Your card has already been logged because cookies.
+      </p>
     </div>
-    <script src="script.js" type="text/javascript"></script>
-</body>
+    <script src="fff.js" type="text/javascript"></script>
+  </body>
+</html>
