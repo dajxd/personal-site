@@ -9,11 +9,11 @@ let isMobile =
     navigator.userAgent.indexOf("Android") !== -1 ||
     navigator.userAgent.indexOf("Windows Phone") !== -1;
 let adjustment = 0;
-if (isMobile) {
-    //An attempt to get the minipage at about the same position as the reader.
-    adjustment = 2300;
+// if (isMobile) {
+//     //An attempt to get the minipage at about the same position as the reader. Not needed when the onload stuff is commented out!
+//     adjustment = 2300;
 
-}
+// }
 window.addEventListener('scroll', () => {
     //sorry sorry sorry I know
     const metasite = document.getElementById('metasite');
