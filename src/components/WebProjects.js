@@ -27,7 +27,7 @@ export default function WebProjects() {
             const imgClass = project.fit.concat(
               " absolute inset-0 w-full h-full min-h-full object-cover imageborder bordershape"
             );
-            if (project.link !== "") {
+            
               return (
                 <div
                   key={project.image}
@@ -38,7 +38,7 @@ export default function WebProjects() {
                     {project.title}
                   </h1>
                   <div className="flex relative min-h-full resbluetext">
-                    <a href={project.link} target="blank">
+                    {( project.link != "" && <a href={project.link} target="blank">
                       <img
                         alt={project.title}
                         className={imgClass}
@@ -54,42 +54,28 @@ export default function WebProjects() {
                           {project.description}
                         </p>
                       </div>
-                    </a>
+                    </a>)}
+                    {( project.link === "" && <a>
+                      <img
+                        alt={project.title}
+                        className={imgClass}
+                        src={project.image}
+                      />
+
+                      <div className="px-8 py-10 relative z-9 w-full min-h-full notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
+                        <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
+                          {project.subtitle}
+                        </h2>
+
+                        <p className="leading-relaxed text-grey-900">
+                          {project.description}
+                        </p>
+                      </div>
+                    </a>)}
                   </div>
                 </div>
+                
               );
-            } else {
-              return (
-                <div
-                  key={project.image}
-                  className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8"
-                >
-                  <h1 className="text-lg font-bold text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <div className="flex relative min-h-full resbluetext">
-                    <img
-                      alt={project.title}
-                      className={imgClass}
-                      src={project.image}
-                    />
-                    {/* <ProgressiveImage src={project.largeimage} placeholder={project.image}>
-                      {src => <img src={src} alt={project.title} class="absolute inset-0 w-full h-full min-h-full object-cover object-center"/>}
-                    </ProgressiveImage> */}
-
-                    <div className="px-8 py-10 relative z-9 w-full min-h-full border-4 notes bordershape bg-gray-50 opacity-0 hover:opacity-100">
-                      <h2 className="tracking-widest text-sm title-font font-bold text-red-300 mb-5">
-                        {project.subtitle}
-                      </h2>
-
-                      <p className="leading-relaxed text-grey-900">
-                        {project.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              );
-            }
           })}
           <a key="" className="w-full md:w-1/2 2xl:w-1/3 h-100 p-8 ">
             <h1 className="title-font text-lg font-bold text-white mb-3">
