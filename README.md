@@ -1,5 +1,3 @@
-# My personal site.
+# Former personal site.
 
-If my site requires a readme, I have done something terribly wronng.
-
-https://www.davemcnamara.com
+Still active at https://dave-mcnamara.netlify.app/
